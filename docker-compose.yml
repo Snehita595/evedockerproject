@@ -8,11 +8,11 @@ services:
   train: 
     image: 595snehita/phonpetrains:v1
     ports: 
-      - "8000:81"
+      - "8001:80"
 
   recharge:
     image: 595snehita/phoneperecharges:v1
     ports: 
-      - "8000:82" 
+      - "8002:80" 
 
   
