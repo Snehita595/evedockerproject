@@ -1,0 +1,18 @@
+version: '3'
+services: 
+  movie: 
+    image: 595snehita/phonpemovies:v1
+    ports: 
+      -  "8000:80"
+
+  train: 
+    image: 595snehita/phonpetrains:v1
+    ports: 
+      - "8000:81"
+
+  recharge:
+    image: 595snehita/phoneperecharges:v1
+    ports: 
+      - "8000:82" 
+
+  
